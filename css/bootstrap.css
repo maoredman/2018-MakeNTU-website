@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -6240,6 +6241,7 @@ button.close {
 }
 .carousel {
   position: relative;
+  height: 650px;
 }
 .carousel-inner {
   position: relative;
