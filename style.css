@@ -86,7 +86,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	border-color:rgba(255,255,255,.2);
 }
 .d-bloc a{
-	color:rgba(255,255,255,.6);
+	color:rgba(255,255,255,.8);
 }
 .d-bloc a:hover{
 	color:rgba(255,255,255,1);
@@ -533,7 +533,7 @@ a[data-lightbox]:hover img{
 /* Background colour styles */
 
 .bgc-carmine-pink{
-	background-color:#F35342;
+	background-color:#6699FF;
 }
 .bgc-outer-space{
 	background-color:#47454B;
@@ -562,8 +562,8 @@ a[data-lightbox]:hover img{
 /* Icon colour styles */
 
 .icon-carmine-pink{
-	color:#F35342!important;
-	border-color:#F35342!important;
+	color:#6699FF!important;
+	border-color:#6698FF!important;
 }
 .icon-outer-space{
 	color:#47454B!important;
@@ -609,7 +609,7 @@ a[data-lightbox]:hover img{
   bottom: 10px;
 }
 #fade-quote-carousel.carousel .carousel-indicators > li {
-  background-color: #e84a64;
+  background-color: #5CA5FF;
   border: none;
 }
 #fade-quote-carousel blockquote {
