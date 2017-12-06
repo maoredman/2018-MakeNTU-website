@@ -2,6 +2,20 @@
         Companyportfolio
         Built with Blocs
 -----------------------------------------------------------------------------------*/
+.youtube {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 body{
 	margin:0;
@@ -17,7 +31,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 
 
-   
+
 
 
 /* Globals type styling */
@@ -578,7 +592,11 @@ a[data-lightbox]:hover img{
 .bg-hackntu-overlay{
     background-image:url("img/hackntu-overlay.png");
 }
-
+.bg-hackntu-icon{
+    background-image:url("img/dim_logo.png");
+    background-size:30%;
+    background-repeat: no-repeat;
+}
 
 .quote {
     color: rgba(0,0,0,.1);
@@ -623,20 +641,20 @@ a[data-lightbox]:hover img{
     border-radius: 100px;
 }
 
-/* = Mobile adjustments 
+/* = Mobile adjustments
 -------------------------------------------------------------- */
 @media (max-width: 1024px)
 {
     .bloc{
-        padding-left: 20px; 
-        padding-right: 20px;  
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 @media (max-width: 768px)
 {
     .container{width:100%;}
     .b-parallax{background-attachment:scroll;}
-    .page-container{overflow-x: hidden;position: relative;} /* Prevent unwanted side scroll on mobile */  
+    .page-container{overflow-x: hidden;position: relative;} /* Prevent unwanted side scroll on mobile */
 }
 @media (max-width: 767px)
 {
@@ -645,8 +663,8 @@ a[data-lightbox]:hover img{
         position:relative;
     }
     h1,h2,h3,h4,h5,h6,p{
-        padding-left:10px!important; 
-        padding-right:10px!important; 
+        padding-left:10px!important;
+        padding-right:10px!important;
     }
     #header h1{
         font-size: 9vw;
@@ -679,8 +697,8 @@ a[data-lightbox]:hover img{
         position: relative;
     }
     .bloc{
-        padding-left: 0; 
-        padding-right: 0;  
+        padding-left: 0;
+        padding-right: 0;
         -webkit-background-size: auto 200%;
         -moz-background-size: auto 200%;
         -o-background-size: auto 200%;
@@ -689,7 +707,7 @@ a[data-lightbox]:hover img{
     .b-parallax{
         background-attachment:scroll;
     }
-    
+
     .navbar .nav{
         padding-top: 0;
         border-top:1px solid rgba(0,0,0,.2);
@@ -704,7 +722,7 @@ a[data-lightbox]:hover img{
 	   transform:none;
 	   -webkit-transform:none;
 	   -ms-transform:none;
-    }  
+    }
     .nav > li{
         margin-top: 0;
         border-bottom:1px solid rgba(0,0,0,.1);
@@ -725,17 +743,17 @@ a[data-lightbox]:hover img{
     .navbar-brand img{
         max-height: 40px;
         width:auto;
-        margin: -10px 10px 0 0;    
+        margin: -10px 10px 0 0;
     }
     .nav-invert .navbar-header{
         float: none;
         width:100%;
     }
     .nav-invert .navbar-toggle{
-        float:left; 
+        float:left;
     }
     .btn.pull-left, .btn.pull-right{
-       float:none!important; 
+       float:none!important;
     }
     .bloc-group .bloc{
          display:block;
@@ -749,14 +767,14 @@ a[data-lightbox]:hover img{
         padding: 40px 0;
     }
     .bloc-sm,.bloc-md{
-        padding-left: 0; 
+        padding-left: 0;
         padding-right: 0;
     }
     .a-block{
         padding:0 10px;
     }
     .btn-dwn{
-       display:none; 
+       display:none;
     }
     .voffset{
         margin-top:5px;
