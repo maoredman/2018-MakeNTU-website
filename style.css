@@ -640,6 +640,12 @@ a[data-lightbox]:hover img{
 .circle-text{
     font-size:100%;
 }
+
+.center {
+    margin: auto;
+    width: 50%;
+    margin-bottom:10px;
+}
 #fade-quote-carousel.carousel {
   padding-bottom: 60px;
 }
