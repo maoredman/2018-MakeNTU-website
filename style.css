@@ -581,7 +581,6 @@ a[data-lightbox]:hover img{
 .bg-hackntu-icon{
     background-image:url("img/dim_logo.png");
     background-size:30%;
-    background-repeat: no-repeat;
 }
 
 .quote {
@@ -602,6 +601,8 @@ a[data-lightbox]:hover img{
   -webkit-transition-property: opacity;
       -ms-transition-property: opacity;
           transition-property: opacity;
+  width:100%;
+  max-height: 1000px;
 }
 #fade-quote-carousel.carousel .carousel-inner .active {
   opacity: 1;
