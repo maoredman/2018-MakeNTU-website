@@ -2,6 +2,10 @@
         Companyportfolio
         Built with Blocs
 -----------------------------------------------------------------------------------*/
+#carousel-next, #carousel-prev{
+    color:#6699FF;
+}
+
 .youtube {
     position: relative;
     width: 100%;

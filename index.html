@@ -708,7 +708,7 @@ Edison 與 Arduino 的程式碼和外接模組相容，是運行 Linux 的小型
                                             <div class="col-sm-4">
                                                 <div class="profile-circle">
                                                     <img src="img/Dageng.jpg"
-                                                         class="img-responsive img-circle center-block img-frame-rd-md"
+                                                         class="img-responsive img-circle center-block img-f rame-rd-md"
                                                          alt="大耕"/>
                                                 </div>
                                                 <h3 class="text-center mg-md">
@@ -947,10 +947,10 @@ Edison 與 Arduino 的程式碼和外接模組相容，是運行 Linux 的小型
                                 <!-- Controls -->
                                 <div id="bootstrap-overrides">
                                 <a class="left carousel-control" href="#fade-quote-carousel" data-slide="prev" >
-                                    <span class="icon-prev"></span>
+                                    <span class="icon-prev" id="carousel-prev"></span>
                                 </a>
                                 <a class="right carousel-control" href="#fade-quote-carousel" data-slide="next">
-                                    <span class="icon-next"></span>
+                                    <span class="icon-next" id="carousel-next"></span>
                                 </a>
                                 </div>
 
@@ -961,13 +961,6 @@ Edison 與 Arduino 的程式碼和外接模組相容，是運行 Linux 的小型
 
                 <!-- carousel changes to this at xs -->
                 <div class="container bloc-md visible-xs">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h1 class="text-center mg-md">
-                                Mentors
-                            </h1>
-                        </div>
-                    </div>
                     <div class="row">
                         <div class="col-xs-12">
                             <h1 class="text-center mg-md">
@@ -1381,7 +1374,7 @@ Edison 與 Arduino 的程式碼和外接模組相容，是運行 Linux 的小型
 
                     <!-- sponsors -->
                     <div class="bloc bgc-platinum l-bloc" id="sponsors">
-                        <div class="container bloc-lg hidden-xs">
+                        <div class="container bloc-lg">
 
                             <div class="row">
                                 <div class="col-md-12 col-xs-12">
@@ -1423,7 +1416,7 @@ Edison 與 Arduino 的程式碼和外接模組相容，是運行 Linux 的小型
                                 </div>
                             </div>
 
-                            <div class="row" style="margin-bottom: 0px margin-top: 30px">
+                            <div class="row" style="margin-bottom: 0px; margin-top: 30px">
                                 <div class="col-md-12 col-xs-12">
                                     <h1 class="text-center mg-md " style="margin-bottom: 0px">
                                         Partnerships
@@ -1431,7 +1424,7 @@ Edison 與 Arduino 的程式碼和外接模組相容，是運行 Linux 的小型
                                 </div>
                             </div>
                             <div class="row vertical-align" style="margin:10%">
-                                <div class="col-xs-6 ">
+                                <div class="col-xs-6">
                                     <a href="https://www.yoctol.com/" target="_blank">
                                         <img src="img/yoctol.png" class="img-responsive center-block" style="width: 500px padding-top:100%" alt="優拓">
                                     </a>
@@ -1488,7 +1481,7 @@ Edison 與 Arduino 的程式碼和外接模組相容，是運行 Linux 的小型
                             </div>
                             <div class="row vertical-align" >
                                 <div class="col-xs-3">
-                                    <a href="ttp://www.intel.com.tw/content/www/tw/zh/homepage.html" target="_blank">
+                                    <a href="https://www.intel.com.tw/content/www/tw/zh/homepage.html" target="_blank">
                                         <img src="img/intel.png" class="img-responsive center-block" style="width: 100%" alt="Intel">
                                     </a>
                                 </div>
@@ -1516,164 +1509,21 @@ Edison 與 Arduino 的程式碼和外接模組相容，是運行 Linux 的小型
                                     </a>
                                 </div>
                                 <div class="col-xs-3  ">
-                                    <a href="http://www.getac.com.tw/" target="_blank">
-                                        <img src="img/getac.png" class="img-responsive center-block" style="width: 100%" alt="神基科技">
-                                    </a>
-                                </div>
-                                <div class="col-xs-3  ">
                                     <a href="http://infinity3dp.com/" target="_blank">
                                         <img src="img/infinity3dp.png" class="img-responsive center-block" alt="元力智庫" style="padding:10%">
                                     </a>
                                 </div>
-                        </div>
-                    </div>
-                    <!-- sponsors END -->
-                    <!-- sponsors for xs-->
-                    <div class="bloc bgc-platinum l-bloc" id="sponsors">
-                        <div class="container bloc-lg visible-xs">
-
-                            <div class="row">
-                                <div class="col-md-12 col-xs-12">
-                                    <h1 class="text-center mg-md ">
-                                        Organizers
-                                    </h1>
-                                </div>
-                            </div>
-                            <div class="row vertical-align">
-                                <div class="col-md-offset-2 col-md-4 col-xs-6">
-                                    <a href="https://www.facebook.com/ntuee.org/" target="_blank">
-                                        <img src="img/eesa.png" class="img-responsive center-block" alt="eesa" style="width: 80%; margin-top:0%">
+                                <div class="col-xs-3  ">
+                                    <a href="https://www.most.gov.tw/" target="_blank">
+                                        <img src="img/tech_ministry.png" class="img-responsive center-block" alt="科技部" style="padding:10%">
                                     </a>
                                 </div>
-                                <div class="col-md-4 col-xs-6  ">
-                                    <a href="http://starrocket.io/" target="_blank">
-                                        <img src="img/StarRocket.png" class="img-responsive center-block" alt="mStarRocket" style="width: 80%; margin-top:10%">
+                                <div class="col-xs-3  ">
+                                    <a href="https://www.fetnet.net/home/" target="_blank">
+                                        <img src="img/fareastone.png" class="img-responsive center-block" alt="遠傳" style="padding:10%">
                                     </a>
                                 </div>
                             </div>
-
-                            <div class="row">
-                                <div class="col-md-12 col-xs-12  ">
-                                    <h1 class="text-center mg-md ">
-                                        Co-organizers
-                                    </h1>
-                                </div>
-                            </div>
-                            <div class="row vertical-align" style="margin-bottom: 40px;">
-                                <div class="col-md-offset-2 col-md-4 col-xs-6">
-                                    <a href="https://depart.moe.edu.tw/ED2700/" target="_blank">
-                                        <img src="img/ministry-of-ed.png" class="img-responsive center-block" alt="教育部資訊及科技教育司" style="width: 80%;">
-                                    </a>
-                                </div>
-                                <div class="col-md-4 col-xs-6  ">
-                                    <a href="https://www.edu.tw/News_Content.aspx?n=D33B55D537402BAA&s=DE00E60763A41046" target="_blank">
-                                        <img src="img/intelligent-iot.png" class="img-responsive center-block" style="width: 100%" alt="智慧聯網技術與應用人才培育計畫-智慧物聯基礎技術聯盟">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="row" style="margin-bottom: 0px margin-top: 30px">
-                                <div class="col-md-12 col-xs-12">
-                                    <h1 class="text-center mg-md " style="margin-bottom: 0px">
-                                        Partnerships
-                                    </h1>
-                                </div>
-                            </div>
-                            <div class="row vertical-align">
-                                <div class="col-xs-6 ">
-                                    <a href="https://www.yoctol.com/" target="_blank">
-                                        <img src="img/yoctol.png" class="img-responsive center-block" style="width: 500px padding-top:100%" alt="優拓">
-                                    </a>
-                                </div>
-                                <div class="col-xs-6" style="padding-top:8%">
-                                    <a href="https://www.alchema.com/" target="_blank">
-                                        <img src="img/alchema.png" class="img-responsive center-block" style="width: 100% " alt="alchema">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="row vertical-align">
-                                <div class="col-xs-6 " style="padding-left:20px" >
-                                    <a href="https://www.dt42.io/" target="_blank" >
-                                        <img src="img/dt42.png" class="img-responsive center-block" style="width: 500px" alt="DT42">
-                                    </a>
-                                </div>
-                                <div class="col-xs-6 ">
-                                    <a href="http://www.google.com" target="_blank">
-                                        <img src="img/google.png" class="img-responsive center-block" style="width: 500px" alt="Google">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="row vertical-align">
-                                <div class="col-xs-6 " style="padding-top:10%">
-                                    <a href="https://www.microsoft.com/zh-tw/" target="_blank">
-                                        <img src="img/microsoft.png" class="img-responsive center-block" style="width: 500px" alt="Microsoft">
-                                    </a>
-                                </div>
-                                <div class="col-xs-6" style="padding-top:5%">
-                                    <a href="http://tw.openrobot.club/" target="_blank">
-                                        <img src="img/openrobot.png" class="img-responsive center-block" style="width: 500px" alt="Open Robot Club">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="row vertical-align">
-                                <div class="col-xs-6 " style="padding-left:5%">
-                                    <a href="https://tw.olami.ai/open/website/home/home_show" target="_blank">
-                                        <img src="img/olami_logo.png" class="img-responsive center-block" style="width: 500px" alt="Olami">
-                                    </a>
-                                </div>
-                                <div class="col-xs-6  " style="padding-top:0% ">
-                                    <a href="http://www.viscovery.co/zh-tw" target="_blank">
-                                        <img src="img/viscovery.png" class="img-responsive center-block" style="width: 500px" alt="Viscovery">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="row" style="margin-bottom: 0px margin-top: 40px">
-                                <div class="col-md-12 col-xs-12">
-                                    <h1 class="text-center mg-md " style="margin-bottom: 40px">
-                                        Sponsors
-                                    </h1>
-                                </div>
-                            </div>
-                            <div class="row vertical-align" >
-                                <div class="col-xs-3">
-                                    <a href="ttp://www.intel.com.tw/content/www/tw/zh/homepage.html" target="_blank">
-                                        <img src="img/intel.png" class="img-responsive center-block" style="width: 100%" alt="Intel">
-                                    </a>
-                                </div>
-
-                                <div class="col-xs-3">
-                                    <a href="https://www.arm.com" target="_blank">
-                                        <img src="img/arm.png" class="img-responsive center-block" style=" width: 100%" alt="ARM">
-                                    </a>
-                                </div>
-                                <div class="col-xs-3"  style="padding-top:2%">
-                                    <a href="https://www.cathayholdings.com/holdings/" target="_blank">
-                                        <img src="img/cathay.png" class="img-responsive center-block" style="width: 100%" alt="Cathay">
-                                    </a>
-                                </div>
-                                <div class="col-xs-3" >
-                                    <a href="https://fiti.stpi.narl.org.tw/" target="_blank">
-                                        <img src="img/innovation-startups.png" class="img-responsive center-block" style="width: 100%" alt="科技部創新創業激勵計畫">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="row vertical-align" >
-                                <div class="col-xs-3" style="margin-top:8%">
-                                    <a href="https://fgc.stpi.narl.org.tw/index" target="_blank">
-                                        <img src="img/grand-challenge.png" class="img-responsive center-block" style="width: 100%" alt="科技部科技大擂台">
-                                    </a>
-                                </div>
-                                <div class="col-xs-3" >
-                                    <a href="http://www.getac.com.tw/" target="_blank">
-                                        <img src="img/getac.png" class="img-responsive center-block" style="width: 100%" alt="神基科技">
-                                    </a>
-                                </div>
-                                <div class="col-xs-3  " style="margin-top:3%">
-                                    <a href="http://infinity3dp.com/" target="_blank" >
-                                        <img src="img/infinity3dp.png" class="img-responsive center-block"  alt="元力智庫" style="padding:10%">
-                                    </a>
-                                </div>
                         </div>
                     </div>
                     <!-- sponsors END -->
